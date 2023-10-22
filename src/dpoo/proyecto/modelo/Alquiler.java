@@ -14,6 +14,6 @@ public class Alquiler {
 	
 	public ArrayList<Seguro> segurosAdicionales = new ArrayList<>();
 	
-	public Vehiculo vehiculoAlquilado;
+	public String vehiculoAlquiladoPlaca;
 	
 }

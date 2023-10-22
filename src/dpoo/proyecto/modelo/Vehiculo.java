@@ -21,10 +21,25 @@ public class Vehiculo {
 	
 	private String tipoTransmision;
 	
+	public Estado estado;
+	
 	public Categoria categoria;
 	
 	public ArrayList <Renta> rentas = new ArrayList<>();
 	
 	public ArrayList <EnEmpresa> enEmpresa = new ArrayList<>();
+
+	public Vehiculo(String placa, String marca, String modelo, String color, String tipoTransmision, Estado estado,
+			Categoria categoria) {
+		
+		this.placa = placa;
+		this.marca = marca;
+		this.modelo = modelo;
+		this.color = color;
+		this.tipoTransmision = tipoTransmision;
+		this.estado = estado;
+		this.categoria = categoria;
+	}
+	
 	
 }

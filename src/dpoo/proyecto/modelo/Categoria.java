@@ -17,6 +17,14 @@ public class Categoria {
 	private Double tarifaBaja;
 	
 	public ArrayList <Vehiculo> automoviles = new ArrayList<>();
+
+	public Categoria(String nombre, Double tarifaAlta, Double tarifaBaja) {
+		
+		this.nombre = nombre;
+		this.tarifaAlta = tarifaAlta;
+		this.tarifaBaja = tarifaBaja;
+	}
+	
 	
 
 }

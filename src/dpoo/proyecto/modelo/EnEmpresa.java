@@ -4,18 +4,17 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Date;
 
 public class EnEmpresa {
 	
-	private String nombre;
+	private String sede;
 	
-	private Date fechaInicio;
+	private LocalDate fechaInicio;
 	
-	private Date fechaFinal;
-	
-	public Sede sede;
+	private LocalDate fechaFinal;
 
 }

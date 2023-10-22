@@ -7,12 +7,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Date;
+import java.time.LocalDate;
 
 public class Renta {
 	
-	private Date fechaInicio;
+	private LocalDate fechaInicio;
 	
-	private Date fechaFinal;
+	private LocalDate fechaFinal;
 	
 	private String rangoHorarioEntrega;
 	
@@ -25,5 +26,20 @@ public class Renta {
 	public Sede sedeRecogida;
 	
 	public Sede sedeEntrega;
+
+	public Renta(LocalDate fechaInicio, LocalDate fechaFinal, String rangoHorarioEntrega, Double tarifa,
+			Alquiler alquiler, Reserva reserva, Sede sedeRecogida, Sede sedeEntrega) {
+		
+		this.fechaInicio = fechaInicio;
+		this.fechaFinal = fechaFinal;
+		this.rangoHorarioEntrega = rangoHorarioEntrega;
+		this.tarifa = tarifa;
+		this.alquiler = alquiler;
+		this.reserva = reserva;
+		this.sedeRecogida = sedeRecogida;
+		this.sedeEntrega = sedeEntrega;
+	}
+	
+	
 	
 }

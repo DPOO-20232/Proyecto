@@ -11,6 +11,13 @@ import java.util.Date;
 public class ConductorAdicional {
 	
 	public LicenciaConduccion datosLicencia;
+
+	public ConductorAdicional(LicenciaConduccion datosLicencia) {
+		
+		this.datosLicencia = datosLicencia;
+	}
+	
+	
 	
 
 }

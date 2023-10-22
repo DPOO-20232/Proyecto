@@ -8,4 +8,13 @@ public class Empleado {
 	
 	private String funcion;
 
+	public Empleado(String nombre, int id, String funcion) {
+
+		this.nombre = nombre;
+		this.id = id;
+		this.funcion = funcion;
+	}
+	
+	
+
 }
