@@ -16,8 +16,14 @@ public class ConductorAdicional {
 		
 		this.datosLicencia = datosLicencia;
 	}
-	
-	
+
+	public LicenciaConduccion getDatosLicencia() {
+		return datosLicencia;
+	}
+
+	public void setDatosLicencia(LicenciaConduccion datosLicencia) {
+		this.datosLicencia = datosLicencia;
+	}
 	
 
 }

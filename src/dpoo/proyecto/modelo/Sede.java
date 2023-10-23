@@ -38,6 +38,10 @@ public class Sede {
 		
 	}
 
+	public Sede(String str) {
+		this.nombre = str;
+	}
+
 	public String getNombre() {
 		return nombre;
 	}
@@ -114,6 +118,20 @@ public class Sede {
         rentasActivas.add(renta);
     }
 	
+	public static Sede valueOf(String str) {
+        return new Sede(str);
+    }
 	
+	public void eliminarEmpleado(Empleado empleado) {
+		listadoEmpleados.remove(empleado);
+	}
 	
+	public void eliminarVehiculo(Vehiculo vehiculo) {
+		vehiculosSede.remove(vehiculo);
+	}
+	public void eliminarRenta(Renta renta) {
+		rentasActivas.remove(renta);
+	}
+
+
 }

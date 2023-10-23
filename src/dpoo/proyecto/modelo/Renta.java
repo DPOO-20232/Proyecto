@@ -39,6 +39,70 @@ public class Renta {
 		this.sedeRecogida = sedeRecogida;
 		this.sedeEntrega = sedeEntrega;
 	}
+
+	public LocalDate getFechaInicio() {
+		return fechaInicio;
+	}
+
+	public void setFechaInicio(LocalDate fechaInicio) {
+		this.fechaInicio = fechaInicio;
+	}
+
+	public LocalDate getFechaFinal() {
+		return fechaFinal;
+	}
+
+	public void setFechaFinal(LocalDate fechaFinal) {
+		this.fechaFinal = fechaFinal;
+	}
+
+	public String getRangoHorarioEntrega() {
+		return rangoHorarioEntrega;
+	}
+
+	public void setRangoHorarioEntrega(String rangoHorarioEntrega) {
+		this.rangoHorarioEntrega = rangoHorarioEntrega;
+	}
+
+	public Double getTarifa() {
+		return tarifa;
+	}
+
+	public void setTarifa(Double tarifa) {
+		this.tarifa = tarifa;
+	}
+
+	public Alquiler getAlquiler() {
+		return alquiler;
+	}
+
+	public void setAlquiler(Alquiler alquiler) {
+		this.alquiler = alquiler;
+	}
+
+	public Reserva getReserva() {
+		return reserva;
+	}
+
+	public void setReserva(Reserva reserva) {
+		this.reserva = reserva;
+	}
+
+	public Sede getSedeRecogida() {
+		return sedeRecogida;
+	}
+
+	public void setSedeRecogida(Sede sedeRecogida) {
+		this.sedeRecogida = sedeRecogida;
+	}
+
+	public Sede getSedeEntrega() {
+		return sedeEntrega;
+	}
+
+	public void setSedeEntrega(Sede sedeEntrega) {
+		this.sedeEntrega = sedeEntrega;
+	}
 	
 	
 	

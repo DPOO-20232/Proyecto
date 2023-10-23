@@ -11,10 +11,44 @@ import java.util.Date;
 
 public class EnEmpresa {
 	
-	private String sede;
+	private String nombre;
 	
 	private LocalDate fechaInicio;
 	
 	private LocalDate fechaFinal;
+	
+	public Sede sede;
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public LocalDate getFechaInicio() {
+		return fechaInicio;
+	}
+
+	public void setFechaInicio(LocalDate fechaInicio) {
+		this.fechaInicio = fechaInicio;
+	}
+
+	public LocalDate getFechaFinal() {
+		return fechaFinal;
+	}
+
+	public void setFechaFinal(LocalDate fechaFinal) {
+		this.fechaFinal = fechaFinal;
+	}
+
+	public Sede getSede() {
+		return sede;
+	}
+
+	public void setSede(Sede sede) {
+		this.sede = sede;
+	}
 
 }

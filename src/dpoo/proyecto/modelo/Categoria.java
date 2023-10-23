@@ -24,7 +24,44 @@ public class Categoria {
 		this.tarifaAlta = tarifaAlta;
 		this.tarifaBaja = tarifaBaja;
 	}
-	
-	
 
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public Double getTarifaAlta() {
+		return tarifaAlta;
+	}
+
+	public void setTarifaAlta(Double tarifaAlta) {
+		this.tarifaAlta = tarifaAlta;
+	}
+
+	public Double getTarifaBaja() {
+		return tarifaBaja;
+	}
+
+	public void setTarifaBaja(Double tarifaBaja) {
+		this.tarifaBaja = tarifaBaja;
+	}
+
+	public ArrayList<Vehiculo> getAutomoviles() {
+		return automoviles;
+	}
+
+	public void setAutomoviles(ArrayList<Vehiculo> automoviles) {
+		this.automoviles = automoviles;
+	}
+	
+	public void agregarVehiculo(Vehiculo vehiculo) {
+        automoviles.add(vehiculo);
+    }
+	
+	public void eliminarVehiculo(Vehiculo vehiculo) {
+        automoviles.remove(vehiculo);
+    }
 }

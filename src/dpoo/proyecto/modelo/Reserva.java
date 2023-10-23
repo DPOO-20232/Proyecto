@@ -12,4 +12,17 @@ public class Reserva {
 	
 	public Categoria categoriaReservada;
 
+	public Reserva(Categoria categoriaReservada) {
+
+		this.categoriaReservada = categoriaReservada;
+	}
+
+	public Categoria getCategoriaReservada() {
+		return categoriaReservada;
+	}
+
+	public void setCategoriaReservada(Categoria categoriaReservada) {
+		this.categoriaReservada = categoriaReservada;
+	}
+
 }

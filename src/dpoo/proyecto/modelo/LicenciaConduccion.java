@@ -26,7 +26,38 @@ public class LicenciaConduccion {
 		this.fechaVencimiento = fechaVencimiento;
 		this.imagenLicencia = imagenLicencia;
 	}
-	
-	
+
+	public int getNumero() {
+		return numero;
+	}
+
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+
+	public String getPaisExpedicion() {
+		return paisExpedicion;
+	}
+
+	public void setPaisExpedicion(String paisExpedicion) {
+		this.paisExpedicion = paisExpedicion;
+	}
+
+	public LocalDate getFechaVencimiento() {
+		return fechaVencimiento;
+	}
+
+	public void setFechaVencimiento(LocalDate fechaVencimiento) {
+		this.fechaVencimiento = fechaVencimiento;
+	}
+
+	public File getImagenLicencia() {
+		return imagenLicencia;
+	}
+
+	public void setImagenLicencia(File imagenLicencia) {
+		this.imagenLicencia = imagenLicencia;
+	}
+
 
 }
